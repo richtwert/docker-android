@@ -1,0 +1,5 @@
+= Android SDK dockerized
+
+Execute the following in terminal:
+
+`docker run -it -v=$(pwd):/opt/workspace --workdir=/opt/workspace --rm razemio/docker-android  /bin/sh -c "./gradlew build"`
